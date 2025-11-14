@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+#__next {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+div[data-nextjs-scroll-focus-boundary]::-webkit-scrollbar {
+  display: none !important;
+}
+
+/* Hide scrollbar on all elements */
+*::-webkit-scrollbar {
+  display: none !important;
+}
+
+* {
+  scrollbar-width: none !important;        /* Firefox */
+  -ms-overflow-style: none !important;     /* IE/Edge */
+}
