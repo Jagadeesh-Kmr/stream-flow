@@ -1,5 +1,7 @@
-Project structure
-my-streaming-dashboard/
+## Project structure
+
+streaming-app/
+
 ├─ app/
 │  ├─ layout.tsx
 │  ├─ page.tsx            # Homepage (Server Component)
